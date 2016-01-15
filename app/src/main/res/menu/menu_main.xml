@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/disconnect_current_wifi" android:title="disconnect"/>
+    <item android:id="@+id/start_scan_wifi" android:title="Scan Wifi"/>
+    <item android:id="@+id/pref_test" android:title="Pref Test" android:visible="false"/>
+    <item android:id="@+id/pref_test_switch" android:title="Pref Test Switch" android:visible="false"/>
+    <item android:id="@+id/pref_current" android:title="Pref Current" android:visible="false"/>
+</menu>

@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_package_reget">获取失败，请重试</string>
+    <string name="my_package_account">登录账号</string>
+    <string name="shortcut_name">Android-Wifi-Connect</string>
+    <string name="app_name">Android-Wifi-Connect</string>
+    <string name="cmccwifi">CMCCWIFI</string>
+    <string name="iconized">Android-Wifi-Connect正在运行</string>
+    <string name="password_retrieve">&lt;font color=&quot;#808080&quot;&gt;&lt;u&gt;忘记密码&lt;/u&gt;&lt;/font&gt;</string>
+    <string name="reacquired_password">&lt;font color=&quot;#808080&quot;&gt;&lt;u&gt;获取动态密码&lt;/u&gt;&lt;/font&gt;</string>
+    <string name="reacquired_password_title">获取动态密码</string>
+    <string name="password_retrieve_title">忘记密码</string>
+    <string name="confirm_password_retrieve">将发送密码重置短信，是否继续？</string>
+    <string name="dynamic_password">动态密码</string>
+    <string name="dynamic_password2">动态密码登录</string>
+    <string name="request_dynamic_password">获取中...</string>
+    <string name="can_not_get_dynamic_password">申请动态密码过于频繁，请稍后重试</string>
+    <string name="can_not_get_password">找回密码获取时间间隔1分钟</string>
+    <string name="no_sim">未插入SIM卡或不可用。</string>
+    <string name="request_password">获取中...</string>
+    <string name="request_password_success">您的密码将以短信的形式发送到您的手机上，请注意查收。</string>
+    <string name="request_password_success2">账号：&lt;font color=&quot;#FF8114&quot;&gt;$phoneNumber&lt;/font&gt;&lt;br/&gt;
+       您的密码将以短信的形式发送到您账号对应的手机上，请注意查收。</string>
+    <string name="request_password_fail">网络异常，请稍后重试。</string>
+    <string name="request_password_fail1">您尚未开通WLAN业务，请先开通。（错误代码：8001）</string>
+    <string name="request_password_fail2">您已注销WLAN业务。（错误代码：8002）</string>
+    <string name="request_password_fail4">找回密码失败,对应业务无静态密码</string>
+    <string name="request_password_fail5">网络异常，请稍后重试。（错误代码：8005）</string>
+    <string name="request_password_fail10">网络异常，请稍后重试。（错误代码：8010）</string>
+    <string name="request_password_fail20">网络异常，请稍后重试。（错误代码：8020）</string>
+    <string name="request_password_fail100">账号不能为空。（错误代码：8100）</string>
+    <string name="request_password_fail8012">您的操作过于频繁， 请稍后重试</string>
+    <string name="request_password_fail101">网络异常，请稍后重试。（错误代码：8101）</string>
+    <string name="ssid_detail">状态&#160;&#160;&#160;&#160;已连接&lt;br/&gt;速度&#160;&#160;&#160;&#160;$speed&#160;Mbps&lt;br/&gt;信号强度&#160;&#160;&#160;&#160;$strength
+&lt;br/&gt;安全性&#160;&#160;&#160;&#160;$security&lt;br/&gt;IP地址&#160;&#160;&#160;&#160;$ip_address</string>
+    <string name="login">登录</string>
+    <string name="cancel">取消</string>
+    <string name="hide">隐藏</string>
+    <string name="exit">退出客户端</string>
+    <string name="connectAlready">您已经连接至互联网</string> 
+    <string name="connect">连接</string>
+    <string name="disconnect">断开</string>
+    <string name="delete">删除</string>
+    <string name="again_connect">重新连接</string>
+    <string name="back_tolist">返回列表</string>
+    <string name="back_to_aplist">返回网络列表</string>
+    <string name="remeber_pwd">记住密码</string>
+    <string name="auto_login">自动登录</string>
+    <string name="error_wifi_disabled">WLAN未打开，是否打开？</string>
+    <string name="wifi_disabled_tips">WLAN未打开，请先打开WLAN！</string>
+    <string name="error_cmcc_disconnected">自动连接$ssid不成功，请您手动连接$ssid!</string>
+    <string name="error_cmcc_disconnected2">CMCC未连接，请先连接网络</string>
+    <string name="error_cmccweb_disconnected">CMCC-WEB未连接，请先连接网络</string>
+    <string name="error_cmcc_not_exist">$ssid不存在请手动扫描。</string>
+    <string name="error_login_failed">登录失败</string>
+    <string name="logining">正在努力登录中...</string>
+    <string name="logining2">正在登录$ssid</string>
+    <string name="logined">已登录</string>
+    <string name="check_cmcc">正在连接到$ssid</string>
+    <string name="logouting">正在断开中...</string>
+    <string name="logouting2">正在断开$ssid</string>
+    <string name="alert_phone_pwd_empty">请输入用户名和密码</string>
+    <string name="alert_phone_empty">请输入用户名</string>
+    <string name="alert_phone_empty2">请输入正确手机号码</string>
+    <string name="alert_pwd_empty">请输入密码</string>
+    <string name="alert_pwd_empty2">查询套餐信息，请输入密码</string>
+    <string name="alert_cmcc_auto_input_empty">账号或密码为空，请输入</string>
+    <string name="tip_phone">手机号码或其他账号</string>
+    <string name="tip_pwd">静态密码</string>
+    <string name="tip_pwd_ramdon">动态密码</string>
+    <string name="static_pwd_back">静态密码登录</string>
+    <string name="ok">确定</string>
+    <string name="network">网络：</string>
+    <string name="not_notify">下次不再提醒</string>
+    <string name="not_wlan">当前位置没有中国移动WLAN，是否关闭WLAN开关？</string>
+    <string name="manage_package">点击&lt;font color=&quot;#329804&quot;&gt;&lt;u&gt;办理WLAN套餐&lt;/u&gt;&lt;/font&gt;获取用户名和密码</string>
+    <string name="help_title">Android-Wifi-Connect客户端使用说明</string>
+    <string name="conn_state">连接状态</string>
+    <string name="cmcc_conn">已登录$ssid</string>
+    <string name="cmcc_disconnect">$ssid已断开</string>
+    <string name="cmcc_disconnect_retry">$ssid已断开，请重试或者尝试使用数据网络</string>
+    <string name="warn_exit_without_disconnect">退出前请先断开网络</string>
+    <string name="cancel_login">正在取消登录...</string>
+    <string name="help">帮助</string>
+    <string name="errors_in_the_installation_package">系统检测到您使用的是非中国移动官方版客户端，为了保证您的账号安全，请重新下载安装。谢谢！</string>
+    <string name="login_tips">亲，您需要先登录</string>
+    
+    
+    <!-- 关于界面 -->
+    <string name="about">关于</string>
+    <string name="gprs">正在使用数据网络</string>
+    <string name="mobile_network_disconnect">移动数据网络已断开</string>
+    <string name="voice">语音助手</string>
+    <string name="copyright">中国移动通信集团公司&#160;&#160;版权所有</string>
+    <string name="about_introduce">Android-Wifi-Connect是中国移动推出的一种无线宽带接入业务，利用Android-Wifi-Connect客户端软件，在无线信号覆盖区域，用户可以便捷高速的接入互联网，从而进行各种业务访问。</string>
+    <string name="about_version">当前版本：$version</string>
+    <string name="about_platform">适用平台：Android 2.1及以上操作系统</string>
+    <string name="about_idea_title">发送邮件</string>
+    <string name="mail_content">wlansupport@139.com</string>
+    <string name="weibo_title">关注微博</string>
+    <string name="weibo_content">中国移动Android-Wifi-Connect</string>
+    <string name="weixin_title">关注微信</string>
+    <string name="weixin_content">中国移动Android-Wifi-Connect</string>
+    <string name="about_copyright_zh">中国移动通信集团公司</string>
+    <string name="about_copyright_en">Copyright © 2001-2015 China Mobile Communications Corporation. All Rights Reserved.</string>
+
+    
+    
+    <!-- 版本更新 -->
+    <string name="update_detail_info">&lt;br&gt;文件大小：$fileSize&lt;br&gt;版本号：$releaseVersion&lt;br&gt;更新说明：&lt;br&gt;$versionInfo</string>
+    <string name="update_title">更新提示</string>
+    <string name="update_title_common">检查更新</string>
+    <string name="update_tips_force">客户端有新版本，由于业务升级，您需要更新之后才能使用，是否立即下载更新？</string>
+    <string name="update_tips_normal">客户端有新版本，是否立即下载更新？</string>
+    <string name="download_by_gprs">您当前连接的是数据网络，是否继续下载安装包？</string>
+    <string name="install_tips_force">客户端新版本已下载完成，由于业务升级，您需要安装之后才能使用,是否立即安装？</string>
+    <string name="install_tips_normal">客户端新版本已下载完成，是否立即安装？</string>
+    <string name="update_checking">正在检查更新，请稍候…</string>
+    <string name="downlaod_cancel_force">由于业务升级，您需要更新客户端才能使用，是否取消下载？</string>
+    <string name="downlaod_force_exit">由于业务升级，您需要更新客户端才能使用。</string>
+    <string name="downlaod_cancel_normal">是否取消下载？</string>
+    <string name="no_update">已经是最新版本</string>
+    <string name="check_update_failed">检查更新失败</string>
+    <string name="error_download_update">下载失败</string>
+    <string name="error_sdcard_unavaiable">SD卡不可用</string>
+    <string name="update_client_title">自动更新</string>
+    <string name="check_update">检查更新</string>
+    <string name="version_info">更新说明:&lt;br&gt;</string>
+    <string name="msg_has_update">Android-Wifi-Connect客户端有更新，现在下载？&lt;br&gt;更新版本：$releaseVersion&lt;br&gt;$versionInfo发布时间：&lt;br&gt;$releaseTime</string>
+    <string name="msg_has_update_gprs">Android-Wifi-Connect客户端有更新安装包，是否使用数据网络下载，下载将产生流量费？&lt;br&gt;更新版本：$releaseVersion&lt;br&gt;$versionInfo发布时间：&lt;br&gt;$releaseTime</string>
+    <string name="btn_download">下载</string>
+    <string name="btn_ignore_update">忽略</string>
+    <string name="msg_install">Android-Wifi-Connect客户端新版本已下载完成，现在安装？</string>
+    <string name="btn_install">安装</string>
+    <string name="btn_not_install">不安装</string>
+    <string name="downloading">正在下载 ...</string>
+    <string name="verification">正在验证 ...</string>
+    <string name="msg_no_update">没有更新</string>
+    <string name="wifi_enabling">正在打开WLAN...</string>
+    <string name="wifi_enabled">WLAN开关已打开</string>
+    <string name="wifi_disabled">WLAN开关已关闭</string>
+    <string name="off_flight">WLAN打开失败，请先关闭飞行模式，再打开WLAN</string>
+    <string name="wifi_enabled_failed">未找到WLAN设备</string>
+    <string name="scanning">正在扫描WLAN热点...</string>
+    <string name="cmcc_connected">CMCC已连接</string>
+    <string name="cmcc_edu_connected">CMCC-EDU已连接</string>
+    <string name="cmcc_connect_failed">CMCC连接失败</string>
+    <string name="cmcc_edu_connect_failed">CMCC-EDU连接失败</string>
+    
+    
+    
+    <!-- 登录提示 -->
+    <string name="cmcc_enabling">正在连接CMCC...</string>
+    <string name="cmcc_edu_enabling">正在连接CMCC-EDU...</string>
+    <string name="guide_enabling">正在检测网络环境...</string>
+    <!-- login error message -->
+    <string name="error_login">登录失败</string>
+    <string name="error_login_timeout">网络异常，请移步至信号较强的区域使用或重试！</string>
+    <string name="error_login1">您尚未开通WLAN业务，请先开通。（错误代码：1001）</string>
+    <string name="error_login2">账号异常，请您检查话费是否充足或咨询10086。（错误代码：1002）</string>
+    <string name="error_login3">账号或密码错误，请重新输入。（错误代码：1003）</string>
+    <string name="error_login7">网络异常，请您重新打开WLAN开关后再试。（错误代码：1007）</string>
+    <string name="error_login8">网络异常，请稍后重试。（错误代码：1008）</string>
+    <string name="error_login26">登录认证失败，网络异常，请稍后重试。（错误代码：1026）</string>
+    <string name="error_login105">网络异常，请稍后重试。（错误代码：1105）</string>
+    <string name="error_login106">您的账号已在其他终端上线，请联系10086。（错误代码：1106）</string>
+    <string name="error_login107">登录失败，您的账号已在其他三台终端同时上线。（错误代码：1107）</string>
+    <string name="error_login108">您的密码过于简单，请修改后再重新登录。（错误代码：1108）</string>
+    <string name="error_login109">登录认证失败，您的账号已被锁定，请用该账号编辑短信JSZH发送到10658029进行解锁或使用动态密码登录。（错误代码：1109）</string>
+    <string name="error_login110">登录认证失败，请检查话费余额是否充足，详情请咨询10086。（返回码：1110）</string>
+    <string name="error_login110_OfferWall"> 亲，目前使用该功能的小伙伴太多了，请稍候重试。（返回码：1110）</string>
+    <string name="error_login111">登录认证失败，您已达到40G封顶流量，您可以发送KTWLANBY20订购流量套餐继续上网。（返回码：1111）</string>
+    <string name="error_login_unknown_all">网络异常，请咨询当地10086。（错误代码：1992）</string>
+    <string name="error_login_unknown_portal">网络异常，请咨询当地10086。（错误代码：1997）</string>
+    <string name="error_login_default_desp">网络异常，请咨询当地10086。</string>
+    <string name="error_login_default_code">（错误代码：$code）</string>
+    <!-- common network error message -->
+    <string name="error_common_timeout">网络请求超时，请移步至信号较强的区域使用或稍后重试。（错误代码：C998）</string>
+    <string name="error_common_io">网络异常，请咨询当地10086。（错误代码：C997）</string>
+    <string name="error_common_hostunknown">网络异常，请咨询当地10086。（错误代码：C996）</string>
+    <string name="error_common_rescode_invalid">网络异常，请咨询当地10086。（错误代码：C995）</string>
+    <string name="error_common_rescode_notok">网络异常，请咨询当地10086。（错误代码：C994）</string>
+    <string name="error_common_other_exception">网络异常，请咨询当地10086。（错误代码：C993）</string>
+    
+    <!-- 获取账号（即免费体验时获取验证码）失败 -->
+    <string name="free_verify_code_success">验证码已下发到您的手机，请注意查收短信。</string>
+    <string name="error_free_verify_code1">您尚未激活WLAN业务，请先获取密码。（返回码：12001）</string>
+    <string name="error_free_verify_code2">账号异常，动态密码申请失败。（返回码：12002）</string>
+    <string name="error_free_verify_code3">您的操作过于频繁，请稍候重试。（返回码：12003）</string>
+    <string name="error_free_verify_code4">网络异常，请稍后重试。（返回码：12004）</string>
+    <string name="error_free_verify_code10">网络异常，请稍后重试。（返回码：12010）</string>
+    <string name="error_free_verify_code20">网络异常，请稍后重试。（返回码：12020）</string>
+    <string name="error_free_verify_code100">账号不能为空。（返回码：12100）</string>
+    <string name="error_free_verify_code101">网络异常，请稍后重试。（返回码：12101）</string>
+    <string name="error_free_verify_code115">申请验证码失败，请下载最新版本的随e行客户端后重试。（返回码：12115）</string>
+    <string name="error_free_verify_code999">网络异常，请稍后重试。（返回码：12999）</string>
+    <string name="error_freeverify_default_desp">网络异常，请稍后重试。</string>
+    
+    <!-- 免费体验登录失败 -->
+    <string name="error_free_login1">您尚未开通WLAN业务，请先开通。（错误代码：13001）</string>
+    <string name="error_free_login2">账号异常，请您检查话费是否充足或咨询10086。（错误代码：13002）</string>
+    <string name="error_free_login3">验证码错误，请重新输入。（错误代码：13003）</string>
+    <string name="error_free_login7">网络异常，请您重新打开WLAN开关后再试。（错误代码：13007）</string>
+    <string name="error_free_login8">网络异常，请稍后重试。（错误代码：13008）</string>
+    <string name="error_free_login15">您的账号已在其他终端享受免费体验。（错误代码：13015）</string>
+    <string name="error_free_login17">您的账号已在其他终端享受免费体验。（错误代码：13017）</string>
+    <string name="error_free_login26">登录认证失败，网络异常，请稍后重试。（错误代码：13026）</string>
+    <string name="error_free_login40">用户免认证到期或者失败。（错误代码：13040）</string>
+    <string name="error_free_login55">您的账号已在其他终端享受免费体验。（错误代码：13055）</string>
+    <string name="error_free_login105">网络异常，请稍后重试。（错误代码：13105）</string>
+    <string name="error_free_login106">您的账号已在其他终端上线，请稍后重试。（错误代码：13106）</string>
+    <string name="error_free_login107">登录失败，您的账号已在其他三台终端同时上线。（错误代码：13107）</string>
+    <string name="error_free_login108">您的密码过于简单，请修改后重新登录。（错误代码：13108）</string>
+    <string name="error_free_login109">登录认证失败，您的账号已被锁定，请用该账号编辑短信JSZH发送到10658029进行解锁或使用动态密码登录。（错误代码：13109）</string>
+    <string name="error_free_login112">认证失败，请下载最新版本的随e行客户端后重试。（错误代码：13112）</string>
+    <string name="error_free_login113">免费体验活动暂只支持CMCC热点。（错误代码：13113）</string>
+    <string name="error_free_login114">网络异常，请稍后重试。（错误代码：13114）</string>
+    <string name="error_free_login115">网络异常，请稍后重试。（错误代码：13115）</string>
+    <string name="error_free_login116">网络异常，请稍后重试。（错误代码：13116）</string>
+    <string name="error_free_login118">免费体验认证失败。（错误代码：13118）</string>
+    <string name="error_free_login119">您输入的手机号码无效，请重新输入（错误代码：13119）</string>
+    <string name="error_free_login120">网络异常，请下载最新版本的随e行客户端后重试。（错误代码：13120）</string>
+    <string name="error_free_login999">异常错误，请联系10086。（错误代码：13999）</string>
+    <string name="error_free_login_unknown_all">网络异常，请咨询当地10086。（错误代码：13992）</string>
+    <string name="error_free_login_default">登录失败，请稍后重试。</string>
+    
+    <!-- 免费体验时下线失败 -->
+    <string name="error_free_logout7">下线失败，请关闭WLAN开关，15分钟后自动下线。（错误代码：14007）</string>
+    <string name="error_free_logout9">下线失败，请关闭WLAN开关，15分钟后自动下线。（错误代码：14009）</string>
+    <string name="error_free_logout11">您的时长套餐已用完，系统已为您自动下线。（错误代码：14011）</string>
+    <string name="error_free_logout18">下线失败，请关闭WLAN开关，15分钟后自动下线。（错误代码：14018）</string>
+    <string name="error_free_logout999">下线失败，请关闭WLAN开关，15分钟后自动下线。（错误代码：14999）</string>
+    <string name="error_freelogout_default_desp">下线失败，请关闭WLAN开关，15分钟后自动下线。</string>
+    
+    <string name="retry_logout">是否重试？</string>
+    <string name="continue_exit">退出客户端将关闭WLAN开关，15分钟后将会自动下线！是否退出？</string>
+    
+    <string name="error_logout7">下线失败，请关闭WLAN开关，15分钟后自动下线。（错误代码：2007）</string>
+    <string name="error_logout9">下线失败，请关闭WLAN开关，15分钟后自动下线。（错误代码：2009）</string>
+    <string name="error_logout11">您的时长套餐已用完，系统已为您自动下线。（错误代码：2011）</string>
+    <string name="error_logout18">下线失败，请关闭WLAN开关，15分钟后自动下线。（错误代码：2018）</string>
+    <string name="error_logout_other">下线失败，请关闭WLAN开关，15分钟后自动下线。（错误代码：2999）</string>
+    <string name="logout_success">下线成功</string>
+    <string name="logout_failed">下线失败</string>
+    
+    <string name="success_get_password">您的动态密码将以短信的形式发送到您的手机上，请注意查收。</string>
+    <string name="success_get_password2">账号：&lt;font color=&quot;#FF8114&quot;&gt;$phoneNumber&lt;/font&gt;&lt;br/&gt;
+       您的动态密码将以短信的形式发送到您账号对应的手机上，请注意查收。</string>
+    <string name="error_password1">您尚未开通WLAN业务，请先开通。（错误代码：4001）</string>
+    <string name="error_password2">账号异常，动态密码申请失败。（错误代码：4002）</string>
+    <string name="error_password3">您的操作过于频繁，请稍候重试。（错误代码：4003）</string>
+    <string name="error_password4">预付费卡用户无法申请动态密码。（错误代码：4004）</string>
+    <string name="error_password5">网络异常，请稍后重试。（错误代码：4005）</string>
+    <string name="error_password10">网络异常，请稍后重试。（错误代码：4010）</string>
+    <string name="error_password20">网络异常，请稍后重试。（错误代码：4020）</string>
+    <string name="error_password22">网络异常，请稍后重试。（错误代码：4022）</string>
+    <string name="error_password23">您的操作过于频繁，请稍候重试。（错误代码：4023）</string>
+    <string name="error_password24">发送动态密码短信失败。（返回码：4024）</string>
+    <string name="error_password100">账号不能为空。（错误代码：4100）</string>
+    <string name="error_password101">网络异常，请稍后重试。（错误代码：4101）</string>
+    <string name="error_password110">申请动态密码失败，请检查话费余额是否充足，详情请咨询10086。（返回码：4110）</string>
+    <string name="error_password111">申请动态密码失败，您已达到40G封顶流量，您可以发送KTWLANBY20订购流量套餐继续上网。（返回码：4111）</string>
+    <string name="error_password999">异常错误，请联系10086。（返回码：4999）</string>
+    <string name="g3_wlan">G3   WLAN</string>
+    <string name="sys_bussiness">提示</string>
+    <string name="showaps_bussiness">将网络类型图标拖动至中间区域进入网络连接。</string>
+    <string name="connect_to_blank">正在连接</string>
+    <string name="wifi_conn">已连接</string>
+    <string name="conn_other_ssid">已连接到其他热点，是否断开并连接到中国移动WLAN？</string>
+    <string name="cmcc_logouting">正在下线...</string>
+    <string name="timeout_connect">连接失败</string>
+    <string name="timeout_disconnect">断开失败</string>
+    <string name="title_connect_wifi">连接WLAN</string>
+    <string name="title_disconnect_wifi">断开WLAN</string>
+    <string name="refresh_ap">刷新</string>
+    <string name="no_wlans">未搜索到WLAN热点</string>
+    <string name="back">返&#160;&#160;&#160;&#160;回</string>
+    <string name="back2">返回</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="resume_cmcc">已恢复上次连接状态。</string>
+    <string name="disconnect_tips">点击【断开】可以断开WLAN连接。</string>
+    <string name="down_tips">长按图标选择状态可切换到网络状态页面!</string>
+
+    
+    <!-- 网络列表界面 -->
+    <string name="wifi_faild">连接失败,请稍后重试</string>
+    <string name="wifi_password_error">网络密码错误</string>
+    <string name="wifi_signal_4">强</string>
+    <string name="wifi_signal_3">较强</string>
+    <string name="wifi_signal_2">中等</string>
+    <string name="wifi_signal_1">较弱</string>
+    <string name="wifi_signal_0">弱</string>
+    <string name="wifi_signal">信号强度：</string>
+    <string name="signal">信号：</string>
+    <string name="ip_address">IP地址：</string>
+    <string name="connection_speed">连接速度：</string>
+    <string name="security">安全类型：</string>
+    <string name="security2">认证类型：</string>
+    <string name="wifi_security_open">开放</string>
+    <string name="wifi_security_open2">OPEN</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_psk">WPA/WPA2 PSK</string>
+    <string name="wifi_security_eap">Enterprise (802.1x)</string>
+    <string name="wifi_security_unknown">未知</string>
+    <string name="ap_disconnecting">正在断开$ssid...</string>
+    <string name="cmcc_disconnect_title">断开网络</string>
+    <string name="cmcc_disconnecting">正在断开网络连接，请稍候...</string>
+    <string name="wifi_conning">正在连接$ssid...</string>
+    <string name="wifi_conn_tip">连接到：</string>
+    <string name="wlan_auto_authen">配置CMCC-AUTO</string>
+    <string name="wifi_username">用户名</string>
+    <string name="wifi_password">密码</string>
+    <string name="wifi_password_tips">密码长度不能小于8位</string>
+    <string name="show_password">显示密码</string>
+    <string name="reset_password">重设密码</string>
+    <string name="reset_config">重新配置</string>
+    <string name="tips">提示</string>
+    <string name="for_package_tips">此服务需要开通WLAN业务方可使用</string>
+    <string name="for_package">办理套餐</string>
+    <string name="for_business">开通业务</string>
+    <string name="sim_config_tips">您已配置其他认证方式，可直接点击登录，或重新填写账号密码</string>
+    
+    <string name="for_package2">&lt;font color=&quot;#e8762f&quot;&gt;&lt;u&gt;办理套餐&lt;/u&gt;&lt;/font&gt;</string>
+    <string name="cmcc_auto_conn_failed">连接CMCC-AUTO失败，可能由于：</string>
+    <string name="cmcc_auto_conn_failed1">1.未办理WLAN套餐</string>
+    <string name="cmcc_auto_conn_failed2">2.用户名和密码输入不正确</string>
+    <string name="cmcc_auto_conn_failed3">3.WLAN网络信号弱</string>
+    <string name="cmcc_explain">中国移动WLAN</string>
+    <string name="cmcc_auto_explain">中国移动WLAN（自动认证）</string>
+    <string name="cmcc_edu_explain">中国移动WLAN（校园）</string>
+    <string name="roam_rate_tips">您正在登录境外热点，漫游资费为：</string>
+    <string name="cmcc_auto_guide">CMCC-AUTO是中国移动推出的WLAN自动认证服务.</string>
+    <string name="cmcc_peap_guide">CMCC是中国移动推出的WLAN自动认证服务.</string>
+    <string name="cmcc_auto_guide1">1.开通中国移动WLAN业务;</string>
+    <string name="cmcc_auto_guide2">2.一次登录、自动保存、随心畅游移动WLAN。</string>
+    <string name="check_detail_explain">查看详细说明</string>
+    <string name="continue_login">继续登录</string>
+     <string name="phone">手机号码</string>
+
+    
+    <!-- 连接状态界面 -->
+    <string name="prompt">客户端将隐藏至后台运行，如果您需要下线登出CMCC网络，请点击桌面快捷图标，客户端将恢复前台运行，即可正常下线。</string>
+    <string name="disconnect_cmcc">您已经断开与CMCC的连接。</string>
+    <string name="disconnect_cmcc_edu">您已经断开与CMCC-EDU的连接。</string>
+    <string name="disconnect_cmcc_auto">您已经断开与CMCC-AUTO的连接。</string>
+    <string name="disconnect_failed">断开失败。</string>
+    <string name="hot_links">网络连接</string>
+    <string name="hot_query">热点查询</string>
+    <string name="hot_map">热点地图</string>
+    <string name="hot_map_select_wlan">请在地图上选点</string>
+    <string name="package_introduction">业务办理</string>
+    <string name="set_up">设置</string>
+    <string name="my_coin">米币</string>
+    <string name="select_networks">请选择一个网络：</string>
+    <string name="conn">已连接</string>
+    <string name="connCmcc">已连接,请登录</string>
+    <string name="loginedCmcc">已登录,请上网</string>
+    <string name="perLoging">正在获取网络参数</string>
+    <string name="remeber_password">已记住密码</string>
+    <string name="conn_tips">是否断开$source，连接$goal？</string>
+    <string name="conn_tips_title">连接到：$goal</string>
+    <string name="experience">体验自动认证</string>
+    <string name="add_terminal">如果您已开通WLAN自动认证业务，请直接点击&lt;font color=&quot;#329804&quot;&gt;&lt;u&gt;配置新终端&lt;/u&gt;&lt;/font&gt;，为本机配置自动认证</string>
+    <string name="add_terminal1">如果您已开通WLAN自动认证业务&lt;br/&gt;请直接点击&lt;font color=&quot;#329804&quot;&gt;&lt;u&gt;添加终端&lt;/u&gt;&lt;/font&gt;获取密码</string>
+    <string name="get_verify_coding">正在获取信息，请稍候...</string>
+    <string name="get_verify_code_failed">信息获取失败。</string>
+    <string name="query_user_message">正在处理中，请稍候...</string>
+    <string name="query_user_message_failed">查询用户信息失败。</string>
+    <string name="tip_add_terminal">您已开通自动认证业务，是否添加终端？</string>
+    <string name="add_terminal_progress">正在添加终端信息...</string>
+    <string name="add_terminal_success">用户$user，添加终端成功，请查收短信并保存密码。</string>
+    <string name="add_terminal_failed">添加终端失败。</string>
+    <string name="open_auth_tips">尊敬的$user用户，您尚未开通自动认证业务，请选择套餐进行开通。</string>
+    <string name="open_wlan_progress">正在开通自动认证...</string>
+    <string name="open_wlan_success">尊敬的$user用户，WLAN自动认证业务已开通，请注意查收密码短信并保存。立即使用自动认证，请点击“继续”，进入热点列表连接CMCC-AUTO。</string>
+    <string name="open_wlan_failed">WLAN自动认证业务开通失败。</string>
+    <string name="no_open_wlan">您尚未开通WLAN自动认证业务，是否继续开通？</string>
+    <string name="open_package_progress">正在开通套餐...</string>
+    <string name="open_package_failed">套餐开通失败。</string>
+    <string name="business_introduction_progress">正在获取业务介绍信息...</string>
+    <string name="save">保存</string>
+    <string name="continue_operate">继续</string>
+    <string name="later_on">稍后处理</string>
+    <string name="please_conn_cmcc_auto">请连接CMCC-AUTO,体验自动认证</string>
+    <string name="no_package">您当前没有可用套餐</string>
+    <string name="check_package_surplus">我的套餐</string>
+    <string name="my_package_detail">套餐详情></string>
+    <string name="my_package_unlogin_tip">尚未登录中国移动WLAN，请登录查看套餐信息。</string>
+    <string name="traffic_usage">本次使用流量</string>
+    <string name="package_expatiation">我的套餐</string>
+    <string name="current_using_package">当月套餐</string>
+    <string name="next_using_package">下月套餐</string>
+    <string name="traffic_package">流量套餐</string>
+    <string name="time_package">时长套餐</string>
+    <string name="package_tips">以下不包含各省优惠及赠送套餐使用详情，仅供参考</string>
+    <string name="login_number">登录账号：</string>
+    <string name="timing">本次登录时长</string>
+    <string name="hour">小时</string>
+    <string name="minute">分钟</string>
+    <string name="second">秒钟</string>
+    <string name="unknown">未知</string>
+    <string name="sim_authen">SIM认证</string>
+    <string name="not_have">无</string>
+    <string name="cur_package">当前套餐：</string>
+    <string name="package_surplus">剩 </string>
+    <string name="package_has_been_used_up">套餐已用完 </string>
+    <string name="charge_standard">标准资费</string>
+    <string name="duration_charge">按0.05元/分钟计费</string>
+    <string name="reconnection">中国移动WLAN已断开，是否重新连接？</string>
+    <string name="wlan_dis_is_exit">中国移动WLAN已断开，是否退出客户端？</string>
+    <string name="manage_cur_flow_package1">CMCC-AUTO下建议您</string>
+    <string name="manage_cur_flow_package2">办理流量套餐</string>
+    <string name="manage_cur_flow_package_close_tips">您也可以在业务办理界面办理流量套餐！</string>
+    <string name="recommend_cmcc_auto">推荐使用热点CMCC-AUTO</string>
+    <string name="see_details">查看详情</string>
+    <string name="cmcc_auto_config_close_tips">您可以在“更多->CMCC-AUTO配置”界面中，配置连接CMCC-AUTO！</string>
+    <string name="broadcast_text">欢迎使用中国移动Android-Wifi-Connect</string>
+    <string name="prior_cmcc_auto_tips">下次启动客户端是否优先连接CMCC-AUTO？</string>
+    <string name="wait_tips">网络不给力，是否继续等待？</string>
+    <string name="wait_tips2">网络不给力，请稍候...</string>
+    <string name="already_login_tips">您已通过其他方式登录$ssid，可通过断开网络连接进行下线。</string>
+    <string name="already_login_tips2">您已通过其他方式登录$ssid</string>
+    <string name="discount">优惠</string>
+    <string name="total">累计</string>
+    
+    <string name="the_use">本次使用</string>
+    
+    <string name="time_left">剩余时间</string>
+	<string name="recommend_app_wait">精彩内容请稍候...</string>
+	<string name="recommend_app">推荐应用</string>
+	<string name="logined_lookup">登录成功后可点击查看</string>
+	<string name="update_app_list_fail">应用列表获取失败</string>
+	<string name="app_no_data">应用列表无数据</string>
+	<string name="delete_app_launcher_title">删除快捷方式</string>
+	<string name="delete_app_launcher_confirm">确定删除 $appName 的快捷方式吗？</string>
+	<string name="delete_recommend_app_title">删除推荐应用</string>
+	<string name="delete_recommend_app_confirm">确定删除 $appName 的推荐应用吗？</string>
+	
+	<string name="auto_reconnect">断网自动恢复</string>
+    
+    
+    <!-- 热点查询界面 -->
+    <string name="open">打开</string>
+    <string name="gps_tips">GPS定位功能已关闭，是否打开？</string>
+    <string name="list_mode">列表</string>
+    <string name="map_mode">地图</string>
+    <string name="select_province">请选择省份</string>
+    <string name="select_city">请选择市</string>
+    <string name="keywords">输入关键字搜索</string>
+    <string name="keywords2">关键字</string>
+    <string name="not_keywords">请输入关键字</string>
+    <string name="hot_name">热点名称：</string>
+    <string name="hot_city">所在地市：</string>
+    <string name="hot_address">热点地址：</string>
+    <string name="hot_coverarea">覆盖区域：</string>
+    <string name="hot_type">热点类型：</string>
+    <string name="hot_map_correct_hint">热点名称、热点地址、覆盖范围等不正确可通过这里反馈哟！</string>
+    <string name="hot_map_correct_hint_toast">您已经选择热点位置</string>
+    <string name="hot_map_correct_tv">重新选点</string>
+    <string name="view_map">查看地图</string>
+    <string name="my_location">您当前位置</string>
+    <string name="location_based">您定位的位置</string>
+    <string name="load_text">正在查询热点数据，请稍候...</string>
+    <string name="location_text">正在获取当前位置</string>
+    <string name="location_finished">已定位到您当前位置</string>
+    <string name="network_fail">您未连接CMCC网络，是否连接？</string>
+    <string name="load_fail_text">您现在处于未联网状态，无法获取到地图</string>
+    <string name="cmcc_no_login">CMCC未登录，请登录后再查看地图</string>
+    <string name="cmcc_edu_no_login">CMCC-EDU未登录，请登录后再查看地图</string>
+    <string name="load_fail_text2">定位当前位置失败，请稍后再试</string>
+    <string name="load_fail_text3">地图初始化失败，请稍后再试</string>
+    <string name="nonsupport_map">该手机不支持查看地图。</string>
+    <string name="no_hot_info">没有找到相关热点</string>
+    <string name="please_input_keywords">暂无热点信息，请输入关键字搜索热点</string>
+    <string name="current_location">当前位置</string>
+    <string name="check_around">查看周边热点信息</string>
+    <string name="no_map_info">缺少地理位置信息，无法查看地图</string>
+    <string name="no_has_gps_device">无GPS模块，无法查看地图</string>
+    <string name="no_hotdetail_info">获取热点信息失败</string>
+    <string name="not_baifenhao_input">不能只输入百分号查询</string>
+    <string name="hot_loading">正在初始化数据中，请稍候...</string>
+    <string name="detect_cmcc">检测网络...</string>
+    <string name="no_available_network">网络不可用，请检查网络设置</string>
+    <string name="not_login">您已连接至$ssid，请登录后再进行下一步操作。是否登录？</string>
+    <string name="cmcc_not_login">您已连接至CMCC，请登录后再进行下一步操作。是否登录？</string>
+    <string name="cmccedu_not_login">您已连接至CMCC-EDU，请登录后再进行下一步操作。是否登录？</string>
+    <string name="obtain_hot">正在获取热点</string>
+    <string name="checking_around">正在查询周边热点，请稍候...</string>
+    <string name="checking_around2">正在获取周边热点...</string>
+    <string name="checking_rates">正在获取各地资费详情...</string>
+    <string name="checking_roaming">正在获取国漫热点...</string>
+    <string name="pull_down_checking_around">下拉获取周边热点</string>
+    <string name="pull_down_checking_around2">暂无热点信息&lt;br&gt;下拉页面进行更新</string>
+    <string name="pull_down_checking_around3">暂无热点信息</string>
+    <string name="pull_down_checking_around4">暂无国漫资费信息</string>
+    
+     <string name="pull_down_checking_rates">下拉获取相关资费信息</string>
+     <string name="pull_down_checking_roam">下拉获取国漫热点信息</string>
+    <string name="loosen_checking_around">松开获取周边热点</string>
+    <string name="loosen_checking_around2">松开获取相关资费信息</string>
+    <string name="loosen_checking_around3">松开获取国漫热点信息</string>
+    <string name="guess_around_hot">暂无周边热点信息</string>
+    <string name="guess_around_hot2">附近没有中国移动WLAN热点&lt;br&gt;下拉页面重新搜索</string>
+    <string name="query_hot_failed">查询热点失败，请重新查询</string>
+    <string name="distance">$distance米</string>
+    <string name="around_total">附近有$total个热点</string>
+    <string name="search_roam_total">查询到$total个热点</string>
+    <string name="search_total">共有$total个搜索结果</string>
+    <string name="hot_search">热点搜索</string>
+    <string name="search">搜索</string>
+    <string name="hot_around">周边热点</string>
+    <string name="get_location_failed">获取当前位置失败，请进入“设置->位置”开启定位功能</string>
+    <string name="more_hot">更多热点...</string>
+    <string name="more_person_info">个人信息</string>
+    <string name="clear_search_history">清除历史记录</string>
+    <string name="search_failure">没有找到相关热点&lt;br&gt;看看输入的关键字是否有误</string>
+    <string name="around_hot_failed">&lt;font color=&quot;#000000&quot;&gt;数据加载失败&lt;/font&gt;&lt;br&gt;看看您的设备是否已联网&lt;br&gt;下拉页面重新加载</string>
+    <string name="around_hot_failed2">获取周边热点失败，请重新获取</string>
+     <string name="around_hot_failed3">获取国漫热点失败，请重新获取</string>
+    <string name="map_level_max">已放大至最大级别</string>
+    <string name="map_level_min">已缩小至最小级别</string>
+
+    
+    
+    <!-- 业务办理界面 -->
+    <string name="introduction">本功能仅限&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;使用，办理以下套餐即可成为中国移动WLAN用户。</string>
+    <string name="introduction2"><!-- 本机号码：&lt;font color=&quot;#FF8114&quot;&gt;$phoneNumber&lt;/font&gt;&lt;br&gt; -->
+        本功能仅限&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;使用，办理以下套餐即可成为中国移动WLAN用户。</string>
+   	<string name="introduction3">&lt;font color=&quot;#FF8114&quot;&gt;请使用中国移动号码，或检查SIM卡是否有效！&lt;/font&gt;</string>
+    <string name="send_ktwlan_sms">正在发送开通短信...</string>
+    <string name="send_banli_wlan_sms">正在发送办理短信...</string>
+    <string name="sms_send_success">短信发送成功</string>
+    <string name="sms_send_timeout">短信发送超时，请查看安全软件设置或留意短信回复。</string>
+    <string name="send_qxtc_sms">正在发送取消套餐短信...</string>
+    <string name="send_zxyw_sms">正在发送注销业务短信...</string>
+    <string name="sms_send_fail">请使用中国移动号码或者检查SIM卡是否有效。</string>
+    <string name="banli_fail">办理失败</string>
+    
+    <string name="traffic_package_dg_retrieve">本机号码：&lt;font color=&quot;#FF8114&quot;&gt;$phoneNumber&lt;/font&gt;&lt;br&gt;
+        	将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信办理
+        	&lt;font color=&quot;#FF8114&quot;&gt;$package&lt;/font&gt;包流量套餐，请查收短信并回复确认。（回复短信免费）</string>
+    <string name="traffic_package_dg_retrieve_nosim">将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信办理
+        	&lt;font color=&quot;#FF8114&quot;&gt;$package&lt;/font&gt;包流量套餐，请查收短信并回复确认。（回复短信免费）</string>
+    <string name="traffic_package_dg_retrieve2">包月套餐不限时长，当月流量用尽后可按短信提示订购叠加流量包。</string>
+    
+    <string name="duration_package_dg_retrieve">本机号码：&lt;font color=&quot;#FF8114&quot;&gt;$phoneNumber&lt;/font&gt;&lt;br&gt;
+        	将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信办理
+        	&lt;font color=&quot;#FF8114&quot;&gt;$package&lt;/font&gt;包时长套餐，请查收短信并回复确认。（回复短信免费）</string>
+    <string name="duration_package_dg_retrieve_nosim">将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信办理
+        	&lt;font color=&quot;#FF8114&quot;&gt;$package&lt;/font&gt;包时长套餐，请查收短信并回复确认。（回复短信免费）</string>
+    <string name="duration_package_dg_retrieve2">按使用时间累计，超出部分按0.05元/分钟收取，40GB流量封顶。</string>
+    
+    
+    <string name="traffic_package_unsubscribe_retrieve">本机号码：&lt;font color=&quot;#FF8114&quot;&gt;$phoneNumber&lt;/font&gt;&lt;br&gt;
+        	将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信退订所有已经办理的套餐，下月生效。</string> 
+    <string name="traffic_package_unsubscribe_retrieve_nosim">将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信退订所有已经办理的套餐，下月生效。</string>
+   
+    <string name="traffic_package_unsubscribe_retrieve2">仅退订包流量套餐，如有办理包时长套餐需要另外退订</string>
+    
+    
+    <string name="duration_package_unsubscribe_retrieve">本机号码：&lt;font color=&quot;#FF8114&quot;&gt;$phoneNumber&lt;/font&gt;&lt;br&gt;
+        	将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信退订所有已经办理的包时长套餐，下月生效。</string>
+    <string name="duration_package_unsubscribe_retrieve_nosim">将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信退订所有已经办理的包时长套餐，下月生效。</string>
+    
+    <string name="duration_package_unsubscribe_retrieve2">仅退订包时长套餐，如有办理包流量套餐需要另外退订</string>
+    
+    <string name="emphasis_rates_tips">未订购套餐或套餐超出部分按照标准资费0.05元/分计费。可同时订购流量套餐与时长套餐。</string>
+    <string name="emphasis_rates_tips2">超出套餐部分按&lt;font color=&quot;#FF8114&quot;&gt;0.1元/MB&lt;/font&gt;计费</string>
+    
+    <string name="unsubscribe_business_tips">如果您已订购&lt;font color=&quot;#FF8114&quot;&gt;时长套餐&lt;/font&gt;，并经常使用大流量业务，建议取消退订，保留时长套餐。</string>
+    
+    
+    
+    <string name="open_wlan">开通WLAN</string>
+    <string name="cancel_wlan">注销WLAN</string>
+    <string name="open_wlan_business">开通WLAN业务</string>
+    <string name="unsubscribe_business">退订套餐</string>
+    <string name="cancel_wlan_business">注销WLAN业务</string>
+    <string name="order_business">订购套餐</string>
+    
+    <string name="open_wlan_tips">本机号码：&lt;font color=&quot;#FF8114&quot;&gt;$phoneNumber&lt;/font&gt;&lt;br&gt;
+        	将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信开通WLAN业务，账号密码将通过短信形式下发到手机，请查收。</string>
+    <string name="open_wlan_tips_nosim">将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信开通WLAN业务，账号密码将通过短信形式下发到手机，请查收。</string>
+   
+    <string name="cancel_wlan_tips">本机号码：&lt;font color=&quot;#FF8114&quot;&gt;$phoneNumber&lt;/font&gt;&lt;br&gt;
+       	 将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信注销中国移动WLAN业务，注销立即生效。</string>
+   	<string name="cancel_wlan_tips_nosim">将为&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;发送免费短信注销中国移动WLAN业务，
+       	 注销立即生效。</string>
+       	 
+   	<string name="traffic_package_ordered">您已办理
+        	&lt;font color=&quot;#FF8114&quot;&gt;$package&lt;/font&gt;的包流量套餐，包流量套餐不限时长，当月流量用尽后可按短信提示订购叠加流量包。</string>
+    <string name="duration_package_ordered">您已办理
+        	&lt;font color=&quot;#FF8114&quot;&gt;$package&lt;/font&gt;的包时长套餐，包时长套餐按使用时间累计，40G流量封顶，时长套餐不可叠加开通。</string>
+    
+   	<string name="i_know">我知道了</string>
+   	 
+    <string name="traffic">包流量套餐</string>
+    <string name="discount_package">优惠套餐</string>
+    <string name="change_des">资费变更说明</string>
+    <string name="rates_des">自2014年1月1日起，中国移动推出2014年优惠套餐，旧套餐用户将继续保留套餐，若订购2014年优惠套餐，旧套餐将在下个月全部失效并按照新套餐进行计费，超出套餐部分按照0.1元/MB计费。</string>
+    <string name="ordered_business">已订购套餐</string>
+    <string name="duration">包时长套餐</string>
+    <string name="unsubscribe">退订</string>
+    <string name="do_not">不</string>
+    <string name="time_limit">限时</string>
+    <string name="limit_quantity">限量</string>
+    <string name="yuan">元</string>
+
+    
+    <!-- 我的套餐界面 -->
+   
+    <string name="wlan_pwd">密码</string>
+    <string name="verify_number">验证账号</string>
+    <string name="verify_hint">短信验证码</string>
+    <string name="reacquired">重新获取</string>
+    <string name="alert_verify_empty">请输入验证码</string>
+    <string name="verify_image">输入图中验证码</string>
+    <string name="package_error_1">您尚未开通WLAN业务，请先开通。（错误代码：6001）</string>
+    <string name="package_error_3">验证码错误，请重新输入。（错误代码：6003）</string>
+    <string name="package_error_4">验证码已超时，请重新获取。（错误代码：6004）</string>
+    <string name="package_error_9">密码验证失败，请重新输入正确的密码及验证码。（错误代码：6009）</string>
+    <string name="package_error_20">网络异常，请稍后重试。（错误代码：6020）</string>
+    <string name="package_error_100">账号不能为空。（错误代码：6100）</string>
+    <string name="package_error_101">网络异常，请稍后重试。（错误代码：6101）</string>
+    <string name="package_error_122">密码验证失败，请输入正确的密码或重新登录后查询。（错误代码：6122）</string>
+    <string name="get_package_failed">获取套餐信息失败，请刷新重试</string>
+    <string name="get_package_failed2">没有读取到您的套餐信息，可能是因为您正在使用的套餐不是全国套餐，请拨打10086查询详情</string>
+    <string name="get_package_failed3">获取已订购套餐信息失败，请重试</string>
+    <string name="get_package_progress">正在查询，请稍候...</string>
+    <string name="query_history">查询历史记录</string>
+    <string name="login_time">登录时间</string>
+    <string name="time_online">在线时长</string>
+    <string name="total_flow">使用流量</string>
+    <string name="history_record_title">$year年$month月历史记录</string>
+    <string name="history_record_error">获取历史记录失败，请稍后重试</string>
+    <string name="history_record_error_1">您尚未开通WLAN业务，请先开通。（错误代码：7001）</string>
+    <string name="history_record_error_2">起止时间必须属于同一账期</string>
+    <string name="history_record_error_3">起始时间不能早于6个月前</string>
+    <string name="history_record_error_4">验证码错误，请重新输入。（错误代码：7004）</string>
+    <string name="history_record_error_5">验证码已超时，请重新获取。（错误代码：7005）</string>
+    <string name="history_record_error_9">密码验证失败，请重新正确的密码及验证码。（错误代码：7009）</string>
+    <string name="history_record_error_20">网络异常，请稍后重试。（错误代码：7020）</string>
+    <string name="history_record_error_100">账号不能为空。（错误代码：7100）</string>
+    <string name="history_record_error_101">网络异常，请稍后重试。（错误代码：7101）</string>
+    <string name="history_record_error_102">查询起始时间QryBegin格式必须为yyyymmdd hhmmss</string>
+    <string name="history_record_error_103">查询终止时间QryEnd格式必须为yyyymmdd hhmmss</string>
+    <string name="history_record_error_122">密码验证失败，请输入正确的密码或重新登录后查询。（错误代码：7122）</string>
+    <string name="more_history_record">更多历史记录...</string>
+    <string name="get_history_record_progress">正在查询您的历史记录，请稍候...</string>
+    <string name="limit_six_month">只能查询最近6个月的记录，请重新选择</string>
+    <string name="date_selector_title">请选择月份：</string>
+    
+    
+    <!-- 更多界面 -->
+    <string name="restore_default_settings">恢复默认设置</string>
+    <string name="confirm_default_settings">确定恢复默认设置？</string>
+    <string name="text02_1">开启该功能，可自动检测和连接当前位置下的CMCC热点</string>
+    <string name="cmcc_signal_tips">CMCC信号提示</string>
+    <string name="text04_1">检测到CMCC信号时提示方式</string>
+    <string name="text05_1">从列表中选择关联的APP，开启该APP时可跳过CMCC的热点提示，直接连接</string>
+    <string name="text06">查询范围</string>
+    <string name="text03_1">检测到CMCC信号时</string>
+    <string name="select03_1">仅在通知栏提示</string>
+    <string name="btn_more_3_text_1">查询范围</string>
+    <string name="btn_more_3_text_1_1">热点查询范围设置</string>
+    <string name="btn_more_3_text_2">当前位置周边1000米的热点</string>
+    <string name="btn_more_3_text_3">当前位置周边2000米的热点</string>
+    <string name="location_method">定位方式</string>
+    <string name="location_method_referral">定位时提醒打开GPS</string>
+    <string name="wifi_setting">WLAN设置</string>
+    <string name="wifi_setting_referral">退出程序时关闭WLAN</string>
+    <string name="auto_login_summary">连接CMCC时自动登录</string>
+    <string name="edit_password">修改密码</string>
+    <string name="edit_password2">密码修改</string>
+    <string name="tips_input_pwd">请输入6位密码</string>
+    <string name="old_password">旧密码</string>
+    <string name="please_old_password">请输入旧密码</string>
+    <string name="please_old_password_six">请输入6位长度的旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="please_new_password">请输入新密码</string>
+    <string name="please_new_password_six">请输入6位长度的新密码</string>
+    <string name="confirm_password">再次输入新密码</string>
+    <string name="please_confirm_password">请输入确认密码</string>
+    <string name="please_confirm_password_six">请输入6位长度的确认密码</string>
+    <string name="confirm_not_equals_to_new_password">确认密码与新密码不一致</string>
+    <string name="password_for_letters_or_numbers">密码由字母或数字组成，请重新输入</string>
+    <string name="edit_password_referral">修改CMCC密码，仅限本机号码作为CMCC账号时使用</string>
+    <string name="send_edit_password_sms">正在为您发送免费短信修改密码</string>
+    <string name="send_edit_password_sms_ok">密码修改申请已发送，请查收短信确认</string>
+    <string name="send_edit_password_sms_fail">短信发送失败，业务暂时无法处理</string>
+    <string name="network_setting">网络设置</string>
+    <string name="account_management">账户管理</string>
+    <string name="software_info">软件信息</string>
+    <string name="text01">自动扫描CMCC热点</string>
+    <string name="text02">开启该功能，可自动检测和连接当前位置下的CMCC热点</string>
+    <string name="text03">检测到CMCC信号时：</string>
+    <string name="text04">关联第三方APP</string>
+    <string name="text05">从下列表中选择关联的APP，开启该APP时可跳过CMCC的热点提示，直接连接</string>
+    <string name="select01">自动连接</string>
+    <string name="select02">提示框提醒</string>
+    <string name="select03">仅在通知管理器中提示</string>
+    <string name="itemText02">已关联该APP</string>
+    <string name="refresh">刷新</string>
+    <string name="remove">移除</string>
+    <string name="cancel_auto_login">取消自动登录</string>
+    <string name="cancel_auto_login1">在CMCC下取消自动登录</string>
+    <string name="cancel_auto_login_success">成功取消自动登录</string>
+    <string name="cancel_auto_login_failed">您未选中自动登录</string>
+    <string name="cmcc_auto_introduce">CMCC-AUTO指引</string>
+    <string name="cmcc_peap_introduce">CMCC使用指南</string>
+    <string name="immediately_configuration">立即配置</string>
+    <string name="cmcc_auto_configuration_success">CMCC-AUTO配置成功。</string>
+    <string name="cmcc_auto_configuration_failed">CMCC-AUTO配置失败。</string>
+    <string name="cmcc_auto_configuration_and_connect">配置成功，是否连接CMCC-AUTO？</string>
+    <string name="my_mi_coin">米币</string>
+    <string name="my_exchange">兑换记录</string>
+    <string name="share">分享有礼</string>
+    <string name="Favorable_exchange">分享码兑换</string>
+    <string name="feedback">意见反馈</string>
+    <string name="app_recommend">应用推荐</string>
+    <string name="new_text">New</string>
+    <string name="common_question">常见问题</string>
+    <string name="not_chinamobile_sim">不是中国移动SIM卡。</string>
+    <string name="more">更多</string>
+    <string name="find_wlan">WLAN管理策略</string>
+    <string name="about_wlan">关于Android-Wifi-Connect</string>
+    <string name="prior_conn_wlan">优先连接的WLAN网络</string>
+    <string name="introduce">自动认证介绍</string>
+    <string name="hot_remind">热点提醒</string>
+    <string name="find_wlan2">当发现WLAN网络时：</string>
+    <string name="display_icon_remind_me">中国移动WLAN热点提醒</string>
+    <string name="display_icon_remind_me_explain">在通知栏显示中国移动WLAN网络提醒</string>
+    <string name="display_icon_keepOnLine">保持在线</string>
+    <string name="display_icon_keepOnLine_explain">发现CMCC-WEB断网会自动恢复网络</string>
+    <string name="display_icon_share_code_explain">输入分享者的分享码领取米币</string>
+    <string name="not_chinamobile_wlan_remind_me_explain">登录后走到没有中国移动WLAN区域时，弹出提示框提醒</string>
+    <string name="not_chinamobile_wlan_remind_me">当没有中国移动WLAN时提醒我</string>
+    <string name="not_remind">不提醒</string>
+    <string name="intelligent_shunt">智能分流</string>
+    <string name="intelligent_shunt_tips">当发现WLAN网络时，且&lt;font color=&quot;#329804&quot;&gt;指定应用&lt;/font&gt;正在使用网络时：</string>
+    <string name="auto_connect">自动连接并显示状态图标</string>
+    <string name="dialog_tips">弹出对话框提醒我</string>
+    <string name="prior_conn_wlan_desp">打开客户端时，优先选择</string>
+    <string name="run_in_background_desp">客户端在后台运行时</string>
+    <string name="remind_reconnect">中国移动WLAN异常下线时提醒我重新连接</string>
+    <string name="auto_close_wlan">没有中国移动WLAN则关闭WLAN开关</string>
+    <string name="set_cmcc_phone">设置CMCC账号</string>
+    <string name="set_edu_phone">设置CMCC-EDU账号</string>
+    <string name="exegesis">注：WLAN开关为开启状态此功能才有效</string>
+    <string name="edit_wlan_password">修改WLAN密码</string>
+    <string name="wlan_edit_password">WLAN密码修改</string>
+    <string name="edit_password_tips">仅限修改本机密码</string>
+    <string name="edit_password_tips2">本功能仅限修改本机号码的CMCC-WEB、CMCC密码，客户端将会为您发送免费短信进行密码修改，请注意查收短信。</string>
+    <string name="edit_password_tips3">本机号码：&lt;font color=&quot;#FF8114&quot;&gt;$phoneNumber&lt;/font&gt;&lt;br&gt;
+        本功能仅限修改&lt;font color=&quot;#FF8114&quot;&gt;本机号码&lt;/font&gt;的CMCC-WEB、CMCC密码，客户端将会为您发送免费短信进行密码修改，请注意查收短信。</string>
+    <string name="attention">注：</string>
+    <string name="edit_password_rule_tips">密码为6位数字和字母组合</string>
+    <string name="cmcc">CMCC</string>
+    <string name="cmcc_edu">CMCC-EDU</string>
+    <string name="cmcc_auto">CMCC-AUTO</string>
+    <string name="submit">提交</string>
+    <string name="share_title">分享</string>
+    <string name="share_content">我正在使用Android-Wifi-Connect客户端，登录中国移动WLAN很方便哦，赶紧来试试吧！下载地址：http://mm.10086.cn/a/j/3176</string>
+
+    <string name="update_app_list">正在更新应用列表...</string>
+    <string name="update_app_list_fail_tips">应用列表获取失败&lt;br/&gt;点击屏幕重新加载</string>
+    <string name="hot_app">热门</string>
+    
+    
+    
+    <!-- 用户意见反馈界面 -->
+    <string name="question_tips">您遇到了什么问题？</string>
+    <string name="question1">登录失败</string>
+    <string name="question2">经常掉线</string>
+    <string name="question3">找不到CMCC</string>
+    <string name="question4">不要一直提醒我有热点</string>
+    <string name="idea_encourage">您的意见就是对我们最大的激励</string>
+    <string name="thank_feedback">谢谢您的宝贵意见</string>
+    <string name="contact_information">留个联系方式吧</string>
+    <string name="contact_information_hint">手机/QQ/邮箱</string>
+    <string name="feedback_length_tips">意见反馈字数不超过500。</string>
+    <string name="alert_feedback_empty">请输入您的宝贵意见或者选择您遇到的问题。</string>
+    <string name="alert_contact_information_empty">请输入您的联系方式。</string>
+    <string name="alert_contact_information_empty2">请输入您的正确联系方式。</string>
+    <string name="in_the_feedback">意见反馈中,请稍候...</string>
+    <string name="feedback_success">我们已收到您的意见，非常感谢您对我们的支持。</string>
+    <string name="feedback_failed">您的反馈发送失败，请检查您的网络设置。</string>
+    
+
+    <!-- 热点提醒 -->
+    <string name="title_use_cmcc">CMCC热点推荐</string>
+    <string name="title_use_cmccedu">CMCC-EDU热点推荐</string>
+    <string name="use_cmcc">发现CMCC信号，是否马上连接？</string>
+    <string name="use_cmccedu">发现CMCC-EDU信号，是否马上连接？</string>
+    <string name="auto_conntect_next_time">始终执行此操作</string>
+    <string name="notify_find_cmcc_free">免费上网已断开，打开客户端重新登录。</string>
+    <string name="notify_find_cmcc">发现中国移动WLAN网络</string>
+    <string name="notify_find_cmccedu">发现中国移动WLAN网络</string>
+    <string name="notify_find_cmcc_desp">点击打开Android-Wifi-Connect客户端</string>
+    <string name="notify_find_cmcc_and_logining">正在登录CMCC...</string>
+    <string name="notify_find_cmccedu_and_logining">正在登录CMCC-EDU...</string>
+    <string name="notify_find_cmcc_connecting">正在连接CMCC...</string>
+    <string name="notify_find_cmccedu_connecting">正在连接CMCC-EDU...</string>
+    <string name="notify_find_cmccauto_connecting">正在连接CMCC-AUTO...</string>
+    <string name="notify_find_cmcc_and_logined">于$time登录$ssid成功</string>
+    <string name="notify_find_cmcc_and_logined_desp">正在安全防护: $SSID</string>
+    <string name="notify_find_cmcc_and_login_failed">CMCC登录失败</string>
+    <string name="notify_find_cmcc_connect_failed">CMCC连接失败</string>
+    <string name="notify_find_cmccedu_and_login_failed">CMCC-EDU登录失败</string>
+    <string name="notify_find_cmccedu_connect_failed">CMCC-EDU连接失败</string>
+    <string name="notify_find_cmccauto_connect_failed">CMCC-AUTO连接失败</string>
+    <string name="notify_find_cmcc_and_login_failed_desp">点击手动登录</string>
+    <string name="notify_find_cmcc_connect_failed_desp">点击手动连接</string>
+    <string name="retry_connect_failed">连接CMCC失败，请确认网络信号是否良好</string>
+    <string name="retry_cmccedu_connect_failed">连接CMCC-EDU失败，请确认网络信号是否良好</string>
+    <string name="retry_login_failed">登录失败，是否重试？</string>
+    <string name="retry">重试</string>
+    <string name="title_white_list_intent">自动连接CMCC的应用列表</string>
+    <string name="loading">数据加载中...</string>
+    <string name="app_relevance">已关联该APP</string>
+     <string name="notify_find_free_cmcc">发现中国移动免费WLAN网络</string>
+    
+    
+    
+    
+    <string name="introduce1">&#160;&#160;&#160;&#160;中国移动最新推出WLAN自动认证功能，只要您是WLAN套餐用户即可连接CMCC-AUTO，实现自动登录</string>
+    <string name="introduce2">注意事项：</string>
+    <string name="introduce3">&#160;&#160;&#160;&#160;1、您可以连接CMCC-AUTO，使用自动认证；</string>
+    <string name="introduce4">&#160;&#160;&#160;&#160;2、建议您订购流量套餐（用户点击流量套餐，即进入流量套餐订购页面）；</string>
+    <string name="introduce5">&#160;&#160;&#160;&#160;3、一旦配置自动认证后，手机会自动附着到CMCCAUTO。为了节省您的费用，建议您不使用时关闭WLAN开关。</string>
+    <string name="unit_hour">小时</string>
+    <string name="unit_minute">分</string>
+    <string name="unit_second">秒</string>
+    <string name="package_desp">$price元包$count$unit/月</string>
+    <string name="package_desp2">$price元包$count$unit</string>
+    <string name="semicolon">：</string>
+    <string name="tips_oldversion_delete">检测到您安装了旧版客户端。业务升级后旧版客户端将不可使用，建议您删除。</string>
+    <string name="tips_oldversion_update">检测到您安装了旧版客户端。业务升级后旧版客户端将不可使用，建议您安装插件屏蔽旧客户端。</string>
+    <string name="nolonger_remind">不再提醒</string>
+    <string name="charge_standard_explain">当前正使用标准资费.</string>
+    <string name="charge_standard_des">资费说明</string>
+    <string name="charge_des">自2014年1月1日起，中国移动推出新WLAN优惠套餐，旧套餐用户将继续沿用旧资费，超出套餐部分按照0.05元/分计算。订购新套餐的用户，超出套餐部分按照0.1元/MB计费。</string>
+    <string name="close_wifi">是否关闭WLAN开关，并退出客户端？</string>
+    <string name="exit_client">确定退出客户端？</string>
+    <string name="exit_and_close_wifi">关闭WLAN开关</string>
+    <string name="cmcc_auto_tips">请您输入登录CMCC时采用的账号和密码</string>
+    <string name="detecting_network">正在检测网络环境...</string>
+    
+    
+    
+    <!-- 漫游环境 -->
+    <string name="roam_expenses">资费：</string>
+    <string name="chinamobile_partner_hot">中国移动漫游合作伙伴WLAN</string>
+    <string name="rate_comma">，</string>
+    <string name="rate_m">¥$m元/分钟</string>
+    <string name="rate_dc">每天封顶¥$dc元</string>
+    <string name="rate_dfl">¥$dfl元/天</string>
+    <string name="rate_m2">&lt;font color=&quot;#e8762f&quot;&gt;¥$m&lt;/font&gt;元/分钟</string>
+    <string name="rate_dc2">每天封顶&lt;font color=&quot;#e8762f&quot;&gt;¥$dc&lt;/font&gt;元</string>
+    <string name="rate_dfl2">&lt;font color=&quot;#e8762f&quot;&gt;¥$dfl&lt;/font&gt;元/天</string>
+    <string name="rate_unknown">未知</string>
+    <string name="rate_daydefine">(计费时段为北京时间0:00-23:59)</string>
+    <string name="rate_daydefine2">(计费时段：北京时间0:00-23:59)</string>
+    <string name="rate_current">当前漫游资费：</string>
+    <string name="str_china">中国</string>
+    <string name="roaming_hotspot">漫游热点查询</string>
+    <string name="wlan_roaming">WLAN漫游业务</string>
+    <string name="wlan_roaming_introduce">漫游业务介绍</string>
+    <string name="loading_hotspot">热点数据加载中...</string>
+    <string name="roaming_hotspot_desp">本功能支持中国移动境外漫游合作伙伴网络名称查询，网络名称中*字符代表任意字符，资费中计费时段为北京时间0:00-23:59。</string>
+    <string name="roaming_not_open">中国移动漫游业务将于近期开通，敬请留意。</string>
+    <string name="roaming_error_uninitialized">SDK未初始化。</string>
+    <string name="roaming_error_unknown">未知错误。</string>
+    <string name="roaming_error_100">手机号码或者密码错误，请重新输入。（错误代码:11100）</string>
+    <string name="roaming_error_1021">手机号码或者密码错误，请重新输入。（错误代码:11021）</string>
+    <string name="roaming_error_1040">您已连接互联网。</string>
+    <string name="roaming_error_common">网络异常，请稍后重试。（错误代码:$code）</string>
+    <string name="business_introduction">业务介绍</string>
+    <string name="business_introduction_content">中国移动WLAN业务支持境外WLAN网络漫游，用户可使用中国移动手机号码和WLAN密码快速登录中国移动漫游合作伙伴WLAN。</string>
+    <string name="method_of_application">使用方法</string>
+    <string name="method_of_application1">1.在客户端网络列表中选择备注为中国移动漫游合作伙伴WLAN;</string>
+    <string name="method_of_application2">2.进入漫游登录页面输入正确的中国移动手机号码和WLAN密码并点击登录即可使用。</string>
+    <string name="roam_login_title_tips">$ssid漫游资费提醒</string>
+    <string name="roam_login_tips">你正处于$ssid漫游服务区域，  
+    &lt;br/&gt;是否继续登录? &lt;br/&gt;&lt;font color=&quot;#F47F0C&quot;&gt;漫游资费：$expenses&lt;/font&gt;
+    &lt;br/&gt;&lt;font color=&quot;#808080&quot;&gt;计费时段：&lt;br/&gt;北京时间00:00--23:59&lt;/font&gt;</string>
+    
+    <string name="cmcc_auto_modify_phone_hint">如需修改，请输入账号</string>
+    <string name="cmcc_auto_modify_pwd_hint">如需修改，请输入密码</string>
+
+    <!-- 首次启动引导页 -->
+    <string name="register">注册新用户</string>
+    <string name="get_phone">获取账号</string>
+    <string name="immediately_experience">立即体验</string>
+    <string name="first_introduce_text">使用CMCC网络需要您开通中国移动WLAN业务方可使用，请确认您是否已经开通？</string>
+    <string name="have_read_and_accept">我已阅读并同意</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="score_use_rules">米币使用规则</string>
+    <string name="score_user_agreement">米币用户协议</string>
+    <string name="transaction_fail">办理失败</string>
+    <string name="roam_tips">您当前处于漫游状态，无法开通WLAN业务。</string>
+    <string name="not_chinamobile_phone">请使用中国移动号码或者检查sim卡是否有效。</string>
+    <string name="send_sms_tips">客户端将为您发送免费短信开通中国移动WLAN业务，账号密码将通过短信形式下发到您的手机，请查收。</string>
+    <string name="send_sms_success">短信发送成功</string>
+    <string name="send_sms_fail">短信发送失败</string>
+    <!-- new ui -->
+    <string name="no_wlans_recommand_l1">430万个CMCC热点</string>
+    <string name="no_wlans_recommand_l2">马上查询吧！</string>
+    <string name="goto_findcmcc">查询周边热点</string>
+    <string name="more_wifi">附近的WiFi</string>
+    <string name="find_cmccwifi">中国移动WLAN网络</string>
+    <string name="network_play">上网必玩</string>
+     <string name="free_wifi">中国移动免费网络</string>
+    <string name="not_find_cmccwifi">没有可用的中国移动WLAN网络</string>
+
+    <string name="city_loading">城市列表加载中...</string>
+    <string name="no_city">无城市信息</string>
+    <string name="gps_city_title">城市定位</string>
+    <string name="getcity_by_gps">正在定位...</string>
+    <string name="getcity_failed">定位失败</string>
+    <string name="search_city_hint">输入城市名称或首字母</string>
+    <string name="search_none">搜索结果为空</string>
+    
+    <string name="title_addapp">添加应用</string>
+    <string name="desp_addapp">可添加到快捷上网</string>
+    <string name="addapp_max_tips">您最多只能添加8个应用</string>
+    
+     <string name="video_loading">正在努力加载中...</string>
+     <string name="consent">同意</string>
+    <string name="refuse">拒绝</string>
+     
+     <!-- CMCC-FREE-->
+     <string name="free_timeout_online">您的免费时长已经用完，系统即将为您下线，如需继续使用，请重新登录</string>
+     <string name="free_timeout_offline">您的免费时长已用完，如需继续使用，请重新登录</string>
+     <string name="free_timein_offline">系统检测到您已掉线，如需继续使用，请重新登录</string>
+     
+     <string name="have_added">您已添加此应用</string>
+     <!-- mywifi -->
+     <string name="mywifi_signal">信号强度</string>
+     <string name="mywifi_status">连接速度</string>
+     <string name="mywifi_checking">正在检测网络</string>
+     <string name="mywifi_not_connected">当前网络不通，请选择其他热点</string>
+     <string name="mywifi_connected">您已成功连接到互联网</string>
+     <string name="mywifi_connect_fail_prefix">此wifi需要</string>
+     <string name="mywifi_connect_suffix">才能上网</string>
+     <string name="mywifi_connect_login">此wifi需要<a href= "http:// wlan.10086.cn ">登录</a>才能上网</string>
+     
+     <!--米币墙界面-->
+      <string name="score_sms_verify">填写号码赠送米币</string>
+     <string name="account_detail">账户明细</string>
+     <string name="make_score">我要赚米</string>
+     <string name="have_free_times">已兑换免费时长</string>
+     <string name="get_sms_verify">获取验证码</string>
+     <string name="get_sms_retry">重新获取</string>
+     <string name="offer_wall_num">手机号码</string>
+     <string name="input_num">请输入手机号</string>
+     <string name="input_verify">请输入验证码</string>
+     <string name="verify_failure">验证失败:</string>
+     <string name="score_use">使用</string>
+     <string name="score_gold_num">米币：</string>
+     <string name="score_total_time">已兑换免费时长: </string>
+     <string name="score_exchange_gold">兑换金币: </string>
+     <string name="score_query_failure">查询失败</string>
+     <string name="score_is_rerequest">,是否重试</string>
+     <string name="score_my_cards_tip">您还没有兑换免费时长,再不赶紧赚取米币兑换就被抢光了!</string>
+      <string name="score_have_not_exchange">您还没有兑换免费时长.</string>
+      <string name="btn_exchange">兑换</string>
+        <string name="btn_use">使用</string>
+        <string name="tip_my_cards">现有时长卡</string>
+        <string name="tip_exchange_cards_failure">获取米币兑换时长套餐列表失败</string>
+        <string name="tip_score_querty_failure">获取米币失败</string>
+        <string name="tip_score_exchange_failure">米币兑换失败</string>
+        <string name="tip_exchange_score_success">兑换成功</string>
+         <string name="tip_exchange_score_failure">兑换失败</string>
+         <string name="tip__score_account_failure">账号解密失败</string>
+          <string name="tip__apply_account_failure">申请上网账号失败</string>
+          <string name="no_internet">当前网络无法使用,您可以先登录CMCC或者连接其他网络再查看米币信息</string>
+           <string name="score_not_enough">米币不足，赶紧赚取米币。</string>
+           <string name="score_card_can_not_use">现有免费时长卡不可使用</string>
+           <string name="no_cmcc">当前区域无法使用：您需要在有中国移动WLAN网络热点的地方才能够免费上网</string>
+            <string name="connection_cmcc_failure">连接CMCC失败,是否重试?</string>
+             <string name="un_connection_cmcc">未连接CMCC,请连接CMCC后再重试,是否跳转到首页连接?</string>
+             <string name="title_score">免费上网</string>
+             <string name="textview_tip_score">填写手机号码\n开启赚米币免费上网之旅</string>
+	<string name="lingxi_queryTelFee_fail">查询话费余额失败!</string>
+	<string name="lingxi_queryTelFlow_fail">查询已用流量失败!</string>
+	<string name="score_textview_query_failure">账号信息获取失败，请重试.</string>
+	<string name="score_textview_package_failure">时长卡信息获取失败，请重试.</string>
+	<string name="score_textview_use">开始上网</string>
+	<string name="score_textview_disconnect">断开网络</string>
+	<string name="score_textview_disconnecting">正在断开</string>
+	<string name="score_title_exchange">兑换商品</string> 
+	<string name="hot_map_correct">反馈信息</string> 
+	<string name="hot_map_confirm">确定 ></string>
+	<string name="score_tv_intro">包$time分钟上网时长，成功登录后开始计时，$time分钟后失效。</string>
+	<string name="score_dialog_check">正在检测网络,请稍候</string>
+		<string name="apply_account_resend">上网账号获取失败,请稍后重试</string>
+		<string name="score_cmcc_unlogin_tip">当前网络不可用，建议您使用其他可用WiFi或数据网络前往赚取米币</string>
+		<string name="score_cmcc_unlogin_and_unverify_tip">当前网络无法使用，您可以先登录CMCC或者连接其他网络再体验免费上网</string>
+		<string name="score_umc_error_108">请输入正确的移动、电信或联通手机号码。</string>
+		<string name="score_umc_error_109">请输入正确的移动、电信或联通手机号码。</string>
+		<string name="score_umc_error_103">短信验证码过期，请重新获取。</string>
+		<string name="score_umc_error_104">短信验证码输入错误，请重新填写。</string>
+		<string name="score_umc_error_801">网络异常，请稍候重试。</string>
+		<string name="score_umc_error_other">亲，目前使用该功能的小伙伴太多了，请稍候重试。</string>
+		<string name="score_where_cmcc">哪有热点</string>
+		<string name="score_cmcc_logout">本次免费时长已用完,系统将为您下线。</string>
+		<string name="score_exchanging">兑换中</string>
+		<string name="score_gprs">当前网络不可用，建议您打开数据网络前往赚取米币。</string>
+		<string name="score_connect_cmcc_unlogin">您当前连接CMCC未登录，建议您使用其他可用WiFi或数据网络前往赚取米币。</string>
+		<string name="score_no_internet">网络不可用,请检查网络设置</string>
+		<string name="score_cmcc_title">正在免费上网</string>
+		<string name="dialog_title">当前网络不可用</string>
+		<string name="dialog_know">我知道了</string>
+		<string name="dialog_recommand_wifi">推荐您使用免费WiFi来赚取时长吧！</string>
+		<string name="recommand_use_mobileNetwork">您正在使用移动数据网络，赚米需要消耗流量，确定继续？</string>
+		<!-- 热点纠错上报-->
+		<string name="hot_map_uploading">提交中</string>
+		<string name="tip_hot_map_upload_success">提交成功</string>
+		<string name="remind_setting">自动下线</string>
+		<string name="remind_setting_tips">设置通知栏提醒</string>
+		<string name="remind_setting_time_limit">定时下线</string>
+		<string name="remind_setting_flow_limit">定流量下线</string>
+		<string name="remind_time_limit">下线提醒</string>
+		<string name="remind_flow_limit">定流量提醒</string>
+		<string name="remind_time_15">15\n分钟</string>
+		<string name="remind_time_30">30\n分钟</string>
+		<string name="remind_time_60">60\n分钟</string>
+		<string name="remind_flow_reach_tips">您设定的流量阀值已达到上限，请点击打开随e行客户端进行相关操作</string>
+		<string name="remind_time_reach_tips">您设定的上网时长已达到上限，请点击打开随e行客户端进行相关操作</string>
+		<string name="remind_flow_setting_1">50\nMB</string>
+		<string name="remind_flow_setting_2">100\nMB</string>
+		<string name="remind_flow_setting_3">200\nMB</string>
+		<string name="remind_flow_setting_4">300\nMB</string>
+		<string name="remind_setting_off">已关闭</string>
+		<string name="remind_time_tips">每次上网达到$time分钟时自动下线</string>
+		<string name="remind_flow_tips">每次上网流量达到$flowMB时自动下线</string>
+		<string name="remind_time_title">每次上网达到以下时间时自动下线：</string>
+		<string name="remind_flow_title">每次上网达到以下流量时自动下线：</string>
+		<string name="remind_flow_unit">MB</string>
+		<string name="auto_logout_tips">上网时长或流量达到指定值后下线</string>
+		<string name="auto_logout_time_tips">时长达到$time分钟</string>
+		<string name="auto_logout_flow_tips">流量达到$flowMB</string>
+		<string name="current_package">当前套餐</string>
+		
+		<string name="market_info_switch_txt">优惠资讯获取</string>
+		<string name="open_market_info_switch_txt">点击显示更多优惠资讯</string>
+		<string name="phone_fee">本机话费</string>
+		<string name="phone_flow">本机剩余数据流量</string>
+		<string name="query_fail">查询失败</string>
+		<string name="fee_and_flow">话费及流量</string>
+		<string name="wlan_package">WLAN套餐</string>
+		<string name="current_phone_num">本机号码</string>
+		<string name="query_flow_and_fee_result_tips">(查询数据仅供参考)</string>
+		<string name="show_market_info">显示优惠资讯</string>
+		<string name="turn_on">已开启</string>
+		<string name="turn_off">已关闭</string>
+		<string name="market_info_turn_on_description">开启后，成功登录中国移动WLAN将会为您推送优惠资讯。</string>
+		<string name="market_info_turn_off_description">关闭后，您将无法获得中国移动WLAN为您推送的优惠资讯。</string>
+		<string name="auto_logout_setting_description_1">• 自动下线功能仅适用于中国移动WLAN网络（CMCC-WEB\\CMCC\\CMCC-EDU）</string>
+		<string name="auto_logout_setting_description_2">• 当开启自动下线功能时，保持在线功能将会关闭</string>
+		<string name="app_download_faild">应用下载失败,请稍候重试...</string>
+		<string name="app_unlegal">应用下载链接无效或为空</string>
+		<string name="app_downloading">应用正在下载中，请稍后...</string>
+		<string name="app_wait_download">下载应用数过多，请等待应用下载完成</string>
+		<string name="app_start_download">应用开始下载</string>
+		<string name="market_info_getting">正在获取优惠资讯...</string>
+		<!-- check360wifi -->
+		<string name="check_360_40">存在未知风险项</string>
+		<string name="check_360_70">未通过安全检测</string>
+		<string name="check_360_10">已通过7项Wi-Fi安全检测</string>
+		<string name="check_360_60">已通过6项Wi-Fi安全检测</string>
+		<string name="check_arp">已通过2项Wi-Fi安全检测</string>
+		<string name="check_arp_not_dns">已通过1项Wi-Fi安全检测</string>
+		<string name="check_normal_safe_item">已通过$count项Wi-Fi安全检测</string>
+		
+		<string name="network_connecting">网络连接中...</string>
+		<string name="security_checking">网络已连接，正在安全检测</string>
+		<string name="prepared_for_login">安全检测完成，请登录</string>
+		<string name="unsafe">未通过安全检测</string>
+		<string name="normal_wifi_protecting">(全方位保护您的Wi-Fi安全)</string>
+		<string name="realtime_protection">实时防护通知</string>
+		<string name="normal_cmccs_title">点击可查看具体信息</string>
+		<string name="unsafe_wifi_title">您的WIFI可能不安全</string>
+		<string name="unsafe_wifi_des">检测到$num项安全风险</string>
+		<string name="prepare_to_login">网络已连接，请登录</string>
+		<string name="check_unsafe_tip">该热点存在风险，建议避免进行有涉及财产的操作并注意保护个人隐私信息以防泄露。</string>
+		
+		<string name="recommend_app_downloading">应用正在下载，请稍后</string>
+		<string name="recommend_app_download_title">应用下载</string>
+		<!-- 分享 -->
+		<string name="share_re_title">我的分享记录</string>
+		<string name="share_re_sucess_text">成功分享客户端 </string>
+		<string name="share_re_sucess_count">$count 次</string>
+		<string name="share_re_re_share">再次分享</string>
+		<string name="share_record">分享记录</string>
+		<string name="share_record_phone_num">手机号</string>
+		<string name="share_record_time">时间</string>
+		<string name="share_discount_title">分享码填写</string>
+		<string name="share_what_discount">什么是分享码？</string>
+		<string name="share_text_discount">请填写分享码</string>
+		<string name="share_text_discount_desp">分享码说明</string>
+		<string name="share_receive_discount">领取</string>
+		<string name="share_get_rewords">获取奖励</string>
+		<string name="share_get_mi_coin">$count 米币</string>
+		<string name="share_rewords">奖励</string>
+		<string name="more_share_record_list">更多分享记录...</string>
+	    <string name="get_share_record_progress">正在查询您的分享记录，请稍候...</string>
+	    <string name="get_no_share_record">暂无分享记录</string>
+		
+		<!--活动tab-->
+		<string name="lingxi">灵犀语音</string>
+		<string name="activities_dm">应用下载</string>
+		<string name="activities_dm_area">下载应用送米币</string>
+		<string name="activities_novice_present">新手大礼包</string>
+		<string name="activities_novice_present_area">首次登陆免费上网领取10米币</string>
+		<string name="share_get_score">分享有礼</string>
+		<string name="share_get_score_area">分享成功即送米币，TA有你也有</string>
+		<string name="sign_get_score">签到有礼</string>
+		<string name="sign_get_score_area">天天签到，多签多得最多拿50米币</string>
+		<string name="activities_area">活动专区</string>
+		<string name="activities_app_recommend">精品应用</string>
+		<string name="activities_get_score">赚取米币</string>
+		<string name="activities_free_connect">免费上网</string>
+		<string name="activities_lingxi">灵犀语音</string>
+		<string name="activities_get_flow">流量赠送</string>
+		<string name="activities_scroe">米币兑换</string>
+		<string name="activities_turntable">幸运大转盘</string>
+		<string name="activities_turntable_area">幸运大转盘，好运转不停</string>
+		<string name="activities_feature">特色活动</string>
+		<string name="activities_life">生活专区</string>
+		<string name="activities">活动</string>
+		<string name="activities_check_in">查看</string>
+		<string name="activities_check_in_fail">签到失败，请稍后重试</string>
+		<string name="lucky_turntable">幸运大转盘</string>
+		<string name="score_area">什么是米币？</string>
+		<string name="score_area_desp">米币说明</string>
+		<string name="exchange_get_score">赚米币</string>
+		<string name="lucktruntable_needlogin">您需要登录后才可以进行抽奖~</string>
+		<string name="scoreactivities_needlogin">您需要登录后才可以赚取米币~</string>
+		<string name="getscore_needlogin">您需要登录后才可以兑换礼品~</string>
+		<!-- 奖品详情 -->
+		<string name="lotterydrawdetails_title">中奖详情</string>
+		<string name="lotterydrawdetails_area">详情</string>
+		<string name="score_area_fail">米币获取失败</string>
+		<string name="score_area_retry">重试</string>
+		<string name="exchangescore_area">剩余米币</string>
+		<string name="more_lotterydraw_record_list">更多中奖记录...</string>
+		
+		<!-- tab主页文字 -->
+		<string name="tab_network">网络</string>
+		<string name="tab_activities">活动</string>
+		<string name="tab_package">套餐</string>
+		<string name="tab_more">我的</string>
+		
+		<string name="reward_for_share">分享有礼</string>
+		<string name="my_share_record">我的分享记录</string>
+		<string name="share_to_friends">分享给朋友</string>
+		<string name="share_link_tips">长按复制专属链接，发布到其他平台</string>
+		
+		<string name="copy">复制</string>
+		<string name="already_copy_to_clipboard">复制成功，可打开微信或QQ分享给好友</string>
+		<string name="share_reward_rule">分享奖励规则</string>
+		<string name="qrcode_tips">请朋友扫一扫，下载安装随e行</string>
+		<string name="copy_share_link">复制分享链接</string>
+		
+		<string name="share_code_is_empty">分享码为空</string>
+		<string name="exchange_failed">兑换失败</string>
+		<string name="please_wait">请稍候...</string>
+		<string name="exchanging">兑换中...</string>
+		<string name="empty_account">账号为空</string>
+		<string name="empty_account_to_login">您还没有登录，请登录后领取米币</string>
+		
+		<string name="change_account">是否切换帐号？</string>
+		
+		<string name="exchange_success_str">您已成功参与分享有礼活动</string>
+		
+		<string name="account_change">切换帐号</string>
+		
+		<string name="sina_weibo">微博</string>
+		<string name="qq">QQ</string>
+		<string name="wechat">微信</string>
+		<string name="friends">朋友圈</string>
+		
+		<string name="share_detail">分享详情</string>
+		<!-- 幸运大转盘 -->
+		<string name="lucky_record">我的中奖记录＞</string>
+		<string name="lucky_score">我的米币：</string>
+		<string name="lucky_prize_set">奖品设置</string>
+		<string name="lucky_rule">活动规则</string>
+		<string name="lucky_tv_take_score_default">每次抽奖将花费10米币</string>
+		<string name="lucky_tv_lottery_result_nothing">差一点点就抽中了!\n加油!</string>
+		<string name="lucky_tv_loading_background">正在加载转盘...</string>
+		<!-- 米币赚取记录-->
+		<string name="activity_coin_record">米币赚取记录</string>
+		<string name="activity_coin_record_more">更多米币记录...</string>
+		 <string name="get_no_get_coin_record">暂无米币赚取记录</string>
+		 <string name="activity_coin_des">活动来源</string>
+		 <string name ="activity_coin_src">赚取项目</string>
+		 <string name="activity_get_coin">赚取米币</string>
+		<!-- 米币兑换记录 -->
+		<string name="activity_coin_exchange_record">米币兑换记录</string>
+		 <string name="get_no_exchange_coin_record">暂无米币兑换记录</string>
+		 <string name="activity_exchange_coin_src">兑换项目</string>
+		 <string name="activity_exchange_coin">兑换米币</string>
+		<string name="cmcc_wifi">移动专属WiFi</string>
+		
+		<string name="hot_ap_map">WiFi热点地图</string>
+		<string name="login_reward_tips">首次登录免费上网可获取10米币</string>
+
+		<string name="current_pkg_label">当前套餐：</string>
+</resources>
